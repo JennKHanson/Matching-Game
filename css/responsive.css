@@ -1,0 +1,113 @@
+
+
+
+/* == DESKTOPS, SOME LAPTOPS, IPAD === */
+
+@media screen and (min-width: 950px) {
+  .container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  }
+
+}
+
+/* === TABLETS === */
+
+@media screen and (min-width: 721px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  }
+  .deck {
+    width: 680px;
+  }
+
+}
+
+/* === CELL PHONES AND SOME TABLETS === */
+
+@media screen and (min-width: 100px) and (max-width: 720px){
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  }
+
+  .deck {
+    width: 290px;
+    min-height: 450px;
+    padding: 28px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3em;
+  }
+
+  body {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .deck .card {
+    height: 55px;
+    width: 55px;
+    display: flex;
+  }
+
+  .deck .card.show {
+  	font-size: 20px;
+  }
+
+  .deck .card.match {
+  	font-size: 30px;
+  }
+
+  /*
+   * Styles for the scoring panel
+   */
+
+  .score-panel {
+  	width: 245px;
+  	margin-bottom: 10px;
+    margin-top: -5px;
+  }
+
+  /*
+   * Styles for the modal
+   */
+
+  .modal-box {
+    position: relative;
+  	z-index: 1;
+    top: -320px;
+    max-width: 130px;
+  	max-height: 130px;
+    padding-top: 15px;
+  	line-height: 1.5em;
+  }
+
+  .yes,
+  .no {
+    width: 48px;
+  }
+
+  .buttons {
+    padding: 5px;
+  }
+}

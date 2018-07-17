@@ -2,19 +2,43 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Description](#description)
+* [How to Play](#howtoplay)
+* [Scoring and Timer](#scoring)
+* [References](#references)
 
-## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+## Description
 
-To get started, open `js/app.js` and start building out the app's functionality
+The Matching Game project is a Udacity project as part of the Front-End Web Developer Nanodegree.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## How to Play
 
-## Contributing
+The card deck consists of 16 cards with 8 matching pairs. The object of the game is to match all 8 pairs by flipping two cards at a time. The game is over when all 16 cards are flipped over as part of a matching pair.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Scoring
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+The game starts with a rating of three stars. The player loses stars after a number of guesses.
+
+Less than 10 guesses = 3 Stars
+10-14 guesses = 2 Stars
+15 and more guesses = 1 Star
+
+The game is timed; however, the time that it takes to complete the game does not affect star rating.
+
+## References
+Background
+  * Subtle Patterns
+
+Udacity Shuffle Function
+  * http://stackoverflow.com/a/2450976
+  * https://matthewcranford.com
+
+Timer Resources
+  * https://www.w3schools.com/js/js_arithmetic.asp
+  * https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/Timer.jsm
+  * https://stackoverflow.com/questions/31559469/how-to-create-a-simple-javascript-timer
+  * http://api.jquery.com/one/
+
+ Counter Resource
+  * https://www.w3schools.com/jsref/met_node_removechild.asp
