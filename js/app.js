@@ -257,6 +257,6 @@ function refreshMatched() {
 //FUNCTIONS
 displayModal();
 refreshButton();
-//shuffleCards();
+shuffleCards();
 startTimer();
 flipCards();
