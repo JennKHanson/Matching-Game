@@ -3,8 +3,8 @@
 ## Table of Contents
 
 * [Description](#description)
-* [How to Play](#howtoplay)
-* [Scoring](#scoringandtime)
+* [How to Play](#how to play)
+* [Scoring](#scoring and time)
 * [References](#references)
 
 
