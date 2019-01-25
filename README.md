@@ -4,7 +4,7 @@
 
 * [Description](#description)
 * [How to Play](#howtoplay)
-* [Scoring and Timer](#scoring)
+* [Scoring](#scoringandtime)
 * [References](#references)
 
 
