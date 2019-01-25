@@ -16,7 +16,7 @@ The Matching Game project is a Udacity project as part of the Front-End Web Deve
 
 The card deck consists of 16 cards with 8 matching pairs. The object of the game is to match all 8 pairs by flipping two cards at a time. The game is over when all 16 cards are flipped over as part of a matching pair.
 
-## Scoring
+## Scoring and Time
 
 The game starts with a rating of three stars. The player loses stars after a number of guesses.
 
